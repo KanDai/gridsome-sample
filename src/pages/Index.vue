@@ -6,6 +6,8 @@
 
     <h1>Hello, world!</h1>
 
+    <h2>{{ message }}</h2>
+
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
@@ -22,6 +24,12 @@
 export default {
   metaInfo: {
     title: 'Hello, world!'
+  },
+
+  data() {
+    return {
+      message : 'こんにちは',
+    }
   }
 }
 </script>
